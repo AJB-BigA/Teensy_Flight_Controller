@@ -1,0 +1,4 @@
+# Use LF for all code files
+*.ino text eol=lf
+*.cpp text eol=lf
+*.h   text eol=lf
