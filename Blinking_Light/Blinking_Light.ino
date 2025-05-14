@@ -1,3 +1,5 @@
+#include "Example.h"
+
 void setup() {
   // put your setup code here, to run once:
   Serial.begin(9600);
@@ -10,5 +12,5 @@ void loop() {
   delay(1000);
   digitalWrite(13,LOW);
   delay(1000);
-  Serial.println("Apple pie");
+  Serial.println(count_loop());
 }
